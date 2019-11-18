@@ -13,8 +13,9 @@ class Logger{
     companion object {
 
         /**
-         * Print the [statement] to console with the respective
-         * [logLevel] tag
+         * Prints the desired message to console with an associated log tag
+         * @param statement The message to print
+         * @param logLevel The log tag
          */
         fun writeLogMessage(statement: String, logLevel: LogLevel) {
             println("[$logLevel]: $statement")

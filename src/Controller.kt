@@ -14,5 +14,6 @@ fun main(args: Array<String>){
         return
     }
 
-    println(dir.getSize(args.joinToString(" ")))
+    //println(dir.getSize(args.joinToString(" ")))
+    println("%.2f".format(dir.getSize(args.joinToString(" "))) + "MB")
 }

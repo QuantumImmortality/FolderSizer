@@ -14,6 +14,7 @@ class ConfigManager{
 
     /**
      * Get the configuration values from the config file
+     * @return The loaded configurations options stored in the Configuration model
      */
     fun loadConfig(): Configuration{
         val lines = Files.readAllLines(Paths.get("Configuration.txt"), StandardCharsets.UTF_8)
